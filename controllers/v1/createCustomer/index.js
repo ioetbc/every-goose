@@ -16,7 +16,7 @@ const createCustomer = async (req, res) => {
             }
 
             res.status(returnStatus).end();
-            console.log('DDB Error: ' + err);
+            console.log('DDBd Error: ' + err);
         } else {
         }
     });
