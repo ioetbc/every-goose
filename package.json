@@ -13,10 +13,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.4.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "i": "^0.3.6",
+    "lodash": "^4.17.15",
     "next": "^9.3.5",
+    "node-sass": "^4.14.0",
     "nodemon": "^2.0.3",
+    "npm": "^6.14.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-confetti": "^5.0.1",
+    "react-dom": "^16.13.1",
+    "stripe": "^8.47.0",
+    "uuidv4": "^6.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
